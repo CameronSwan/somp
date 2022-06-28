@@ -1,3 +1,16 @@
+nav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #334155;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nav--logo {
+    width: 128px;
+}
+
 .nav--onsite_links, .nav--offsite_links {
     display: none;
 }
@@ -7,19 +20,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
-    nav {
-        padding-top: 25px;
-        padding-bottom: 25px;
-        background-color: #20236A;
-        display: flex;
-        justify-content: center;
-        gap: 50px;
-    }
-
-    .nav--logo {
-        width: 128px;
-    }
 
     .nav--links, .nav--eastlink_container {
         display: flex;
@@ -49,13 +49,13 @@
 
     .nav--eastlink {
         padding: 6px;
-        background-color: #3372A9;
+        background-color: #64748b;
         border: 3px solid #ffffff;
         border-radius: 10px;
     }
 
     .nav--eastlink:hover {
-        color: #3372A9;
+        color: #64748b;
         background-color: #ffffff;
     }
 

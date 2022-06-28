@@ -1,0 +1,17 @@
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #334155;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width: 320px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    
+
+}
