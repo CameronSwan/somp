@@ -32,7 +32,7 @@ nav {
     }
 
     .nav--links > a:hover, .nav--links > Link:hover {
-        color: #A3A5E3;
+        color: #64748b;
     }
 
     .nav--links, .nav--eastlink_container {
