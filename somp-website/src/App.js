@@ -16,7 +16,7 @@ export default function App() {
                     <Route exact path='/' element={<Home />} />
                     <Route path='/Projects' element={<Projects />} />
                 </Routes>
-                <Contact id='contact' />
+                <Contact />
                 <Footer />
             </Router>
         </div>

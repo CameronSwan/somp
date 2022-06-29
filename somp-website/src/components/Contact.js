@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
     return (
-        <div className='contact'>
+        <div className='contact' id='contact'>
             <h1 className='contact--title'>Contact Us</h1>
             <form className='contact--form'>
                 <label className='contact--fname_lbl'>First Name:</label>

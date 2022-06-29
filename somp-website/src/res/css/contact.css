@@ -6,4 +6,26 @@
 
 @media only screen and (min-width: 768px) {
 
+    .contact {
+        padding: 25px;
+        margin: 25px auto;
+        width: 60%;
+        background-color: #334155;
+        border: 3px solid #ffffff;
+        border-radius: 10px;
+    }
+
+    .contact--title {
+        width: 200px;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .contact--form {
+        margin-top: 25px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr 1fr 3fr;
+        gap: 15px;
+    }
+
 }
