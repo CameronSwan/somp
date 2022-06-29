@@ -12,11 +12,13 @@ export default function App() {
         <div className='container'>
             <Router>
                 <Navbar />
-                <Routes>
-                    <Route exact path='/' element={<Home />} />
-                    <Route path='/Projects' element={<Projects />} />
-                </Routes>
-                <Contact />
+                <div className='content_container'>
+                    <Routes>
+                        <Route exact path='/' element={<Home />} />
+                        <Route path='/Projects' element={<Projects />} />
+                    </Routes>
+                    <Contact />
+                </div>
                 <Footer />
             </Router>
         </div>
