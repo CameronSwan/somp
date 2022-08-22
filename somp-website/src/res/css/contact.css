@@ -10,14 +10,14 @@
         padding: 25px;
         margin: 25px auto;
         width: 60%;
-        background-color: #334155;
-        border: 3px solid #0f172a;
+        background-color: #64748b;
+        border: 1px solid #000000;
         border-radius: 10px;
     }
 
     .contact--title {
-        width: 200px;
-        border-bottom: 1px solid #ffffff;
+        width: 165px;
+        border-bottom: 1px solid #000000;
     }
 
     .contact--form {

@@ -7,33 +7,31 @@
 @media only screen and (min-width: 768px) {
 
     .home--company {
-        margin: 25px auto;
-        width: 80%;
+        margin: 250px auto;
         display: flex;
+        justify-content: center;
     }
 
     .home--company_title {
         padding-bottom: 15px;
-        margin-top: 15%;
         margin-bottom: 25px;
         margin-right: 25px;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #64748b;
+        font-size: xx-large;
     }
 
     .home--company_desc {
         margin-bottom: auto;
-        font-size: 10px;
+        font-size: larger;
     }
 
-    .home--company_image {
-        height: 100%;
-        /* border: 3px solid #0f172a; */
-        /* border-radius: 10px; */
-    }
+    /* .home--company_image {
+        width: 60%;
+        border: 1px solid #000000;
+    } */
 
     .home--projects {
-        margin-left: auto;
-        margin-right: auto;
+        margin: 250px auto;
         width: 80%;
         display: flex;
         gap: 25px;
@@ -43,53 +41,55 @@
     .home--project {
         width: 33%;
         height: 300px;
-        background-color: #334155;
-        border: 3px solid #0f172a;
+        background-image: url('../img/beach.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-color: #64748b; */
+        border: 1px solid #000000;
         border-radius: 10px;
     }
 
-    .home--project_image {
+    /* .home--project_image {
         margin: 10px;
-        width: 100%;
-        height: 40%;
+        width: 10%;
         object-fit: cover;
         border: 3px solid #0f172a;
         border-radius: 10px;
-    }
+    } */
 
     .home--project_title {
         margin: 10px;
-        margin-top: 0;
         padding-bottom: 10px;
-        border-bottom: 1px solid #ffffff;
-        font-size: 14px;
+        border-bottom: 1px solid #000000;
+        font-size: x-large;
     }
 
     .home--project_desc {
         margin: 10px;
-        font-size: 8px;
+        font-size: smaller;
     }
 
     .home--project_link {
         padding: 6px;
         margin-left: 8px;
         margin-bottom: 12px;
-        background-color: #64748b;
+        background-color: #70829b;
         font-size: 14px;
+        font-weight: bold;
         text-decoration: none;
-        border: 3px solid #ffffff;
+        border: 1px solid #000000;
         border-radius: 10px;
         position: absolute;
         bottom: 0;
+        box-shadow: 0 1px 1px 0;
     }
 
     .home--project_link:hover {
-        color: #64748b;
         background-color: #ffffff;
     }
 
     .home--eastlink {
-        margin: 25px auto;
+        margin: 250px auto;
         width: 80%;
         display: flex;
     }
@@ -97,8 +97,7 @@
     .home--eastlink_image {
         width: 60%;
         height: 100%;
-        border: 3px solid #0f172a;
-        border-radius: 10px;
+        border: 1px solid #000000;
     }
 
     .home--eastlink_title {

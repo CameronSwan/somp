@@ -11,9 +11,9 @@ export default function Navbar() {
                 <NavLink className={({ isActive }) => (isActive ? 'nav--active_link' : 'nav--projects')}  to='/Projects'>Projects</NavLink>
                 <a className='nav--contact' href='#contact'>Contact Us</a>
             </ul>
-            <img className='nav--logo' src={logo} alt='Seat of My Pants' />
+            <a href='/'><img className='nav--logo' src={logo} alt='Seat of My Pants' /></a>
             <div className='nav--eastlink_container'>
-                <a className='nav--eastlink' href='https://www.eastlink.ca/' target='_blank' rel='noreferrer'>Support Local Film</a>
+                <a className='nav--eastlink' href='https://www.eastlink.ca/cable-digital-tv/community-tv' target='_blank' rel='noreferrer'>Support Local Film</a>
             </div>
         </nav>
     )

@@ -5,6 +5,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 50px;
+    border-bottom: 1px solid #000000;
 }
 
 .nav--logo {
@@ -53,9 +54,10 @@ nav {
 
     .nav--eastlink {
         padding: 6px;
-        background-color: #64748b;
-        border: 3px solid #ffffff;
+        background-color: #70829b;
+        border: 1px solid #000000;
         border-radius: 10px;
+        box-shadow: 0 1px 1px 0;
     }
 
     .nav--eastlink:hover {
