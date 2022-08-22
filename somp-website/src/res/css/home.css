@@ -41,12 +41,22 @@
     .home--project {
         width: 33%;
         height: 300px;
-        background-image: url('../img/beach.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         /* background-color: #64748b; */
         border: 1px solid #000000;
-        border-radius: 10px;
+    }
+
+    .project--behind_the_scenes {
+        background-image: url('../img/beach.jpg');
+    }
+
+    .project--faces_of_pharmacare {
+        background-image: url('../img/reed_road.jpg');
+    }
+
+    .home--project_background {
+        filter: blur(4px);
     }
 
     /* .home--project_image {
@@ -75,7 +85,6 @@
         margin-bottom: 12px;
         background-color: #70829b;
         font-size: 14px;
-        font-weight: bold;
         text-decoration: none;
         border: 1px solid #000000;
         border-radius: 10px;
@@ -88,30 +97,91 @@
         background-color: #ffffff;
     }
 
-    .home--eastlink {
-        margin: 250px auto;
+    .home--team {
         width: 80%;
+        margin: 250px auto;
         display: flex;
     }
 
-    .home--eastlink_image {
-        width: 60%;
+    .team--bill {
+        display: flex;
+        text-align: center;
+    }
+
+    .bill--image {
+        width: 250px;
+        height: 250px;
+        margin: auto;
+        border-radius: 50%;
+        border: 1px solid #000000;
+        background-image: url('../img/bill_headshot.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-y: center;
+    }
+
+    .bill--content {
+        width: 1000px;
+        margin-left: 100px;
+        text-align: left;
+    }
+
+    .bill--title {
+        padding: 4px;
+        margin: 25px 0;
+        margin-bottom: none;
+        border-bottom: 1px solid #000000;
+        text-align: left;
+    }
+
+    .bill--desc {
+        padding: 4px;
+    }
+
+    .home--sponsors {
+        margin: 0 auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .home--sponsors_title {
+        font-size: xx-large;
+        margin-bottom: 50px;
+    }
+
+    .home--sponsor {
+        margin: 0 auto;
+        margin-bottom: 25px;
+        width: 80%;
+        display: flex;
+        text-align: left;
+    }
+
+    .home--sponsor_image {
+        width: 40%;
         height: 100%;
         border: 1px solid #000000;
     }
 
-    .home--eastlink_title {
+    .home--sponsor_title {
+        padding: 4px;
         padding-bottom: 15px;
         margin-top: 15%;
         margin-bottom: 25px;
         margin-left: 25px;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #000000;
+        font-size: x-large;
     }
 
-    .home--eastlink_desc {
+    .home--sponsor_desc {
+        padding: 4px;
         margin-bottom: auto;
         font-size: 10px;
         margin-left: 25px;
+        font-size: medium;
     }
 
 }

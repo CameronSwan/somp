@@ -54,14 +54,13 @@ nav {
 
     .nav--eastlink {
         padding: 6px;
-        background-color: #70829b;
+        background-color: #7e90aa;
         border: 1px solid #000000;
         border-radius: 10px;
         box-shadow: 0 1px 1px 0;
     }
 
     .nav--eastlink:hover {
-        color: #64748b;
         background-color: #ffffff;
     }
 

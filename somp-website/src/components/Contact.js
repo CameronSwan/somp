@@ -13,6 +13,7 @@ export default function Contact() {
                 <input className='contact--email' id='email' type='text' name='email' placeholder='Email...' />
                 <label className='contact--message_lbl'>Message:</label>
                 <input className='contact--message' id='message' type='text' name='message' placeholder='Message...' />
+                <input className='contact--submit' type='submit'></input>
             </form>
         </div>
     )
